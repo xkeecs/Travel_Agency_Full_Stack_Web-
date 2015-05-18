@@ -1,0 +1,5 @@
+# Messages
+
+planes.list.title={0,choice,0#No planes|1#One plane|1<{0,number,integer} planes} 
+
+

@@ -1,0 +1,16 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Default path will just redirect to the computer list
+GET     /                           controllers.Application.index()
+
+# Computers list (look at the default values for pagination parameters)
+GET     /planes                  controllers.Application.list(p:Int ?= 0, s ?= "plane_id", o ?= "asc", f ?= "")
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+GET     /search                           controllers.Application.search(p: Int ?= 0, o?="asc")
+
+

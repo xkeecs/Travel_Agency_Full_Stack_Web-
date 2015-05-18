@@ -1,0 +1,155 @@
+@(currentPage: plane.Page, currentSortBy: String, currentOrder: String, currentFilter: String)
+
+@****************************************
+* Helper generating navigation links    *
+****************************************@
+@link(newPage:Int, newSortBy:String) = @{
+    
+    var sortBy = currentSortBy
+    var order = currentOrder
+    
+    if(newSortBy != null) {
+        sortBy = newSortBy
+        if(currentSortBy == newSortBy) {
+            if(currentOrder == "asc") {
+                order = "desc"
+            } else {
+                order = "asc"
+            }
+        } else {
+            order = "asc"
+        }
+    }
+    
+    // Generate the link
+    routes.Application.list(newPage, sortBy, order, currentFilter)
+    
+}
+
+@**********************************
+* Helper generating table headers *
+***********************************@
+@header(key:String, title:String) = {
+    <th class="@key.replace(".","_") header @if(currentSortBy == key) @{if(currentOrder == "asc") "headerSortDown" else "headerSortUp"}">
+        <a href="@link(0, key)">@title</a>
+    </th>
+}
+
+@main {
+    
+    @if(flash.containsKey("success")) {
+        <div class="alert-message warning">
+            <strong>Done!</strong> @flash.get("success")
+        </div>
+    } 
+    
+    @if(currentPage.getTotalRowCount == 0) {
+        
+        <div class="well">
+            <em>No records found</em>
+        </div>
+        
+    } else {
+        
+        <table class="planes zebra-striped">
+            <thead>
+                <tr>
+                    @header("airline", "Airline name")
+                    @header("departure_date", "Departure Date")
+                    @header("dep_id", "Dep ID")
+                    @header("dest_id", "Destination")
+                    @header("flight_number", "Flight Number")
+                    @header("plane_id", "plane_id")
+                    @header("flight_price", "Price")
+                </tr>
+            </thead>
+            
+            <tbody>
+                @for(air <- currentPage.getList) {
+                    <tr>
+                        <td>
+                            @if(air.airline == null) {
+                                <em>-</em>
+                            } else {
+                                @air.airline
+                            }
+                        </td>
+                        
+                        
+                        <td>
+                            @if(air.departure_date == null) {
+                                <em>-</em>
+                            } else {
+                                @air.departure_date.format("dd MMM yyyy")
+                            }
+                        </td>
+                        <td>
+                            @if(air.dep_id == 0){
+                            	<em>-</em>
+                            } else{
+                            	@air.dep_id
+                            }
+                        </td>
+                        <td>
+                            @if(air.dest_id == 0){
+                            	<em>-</em>
+                            } else{
+                            	@air.dest_id
+                            }
+                        </td>
+                        <td>
+                            @if(air.flight_number == 0) {
+                                <em>-</em>
+                            } else {
+                                @air.flight_number
+                            }
+                        </td>
+                        <td>
+                        	@if(air.plane_id == 0){
+                        	
+                        	} else{
+                        		@air.plane_id	
+                        	}
+                        <td>
+                            @if(air.flight_price == 0) {
+                                <em>-</em>
+                            } else {
+                                @air.flight_price
+                            }
+                        </td>
+                   
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination pagination-centered"">
+            <ul>
+                @if(currentPage.hasPrev) {
+                    <li class="prev">
+                        <a href="@link(currentPage.getPageIndex - 1, null)">&larr; Previous</a>
+                    </li>
+                } else {
+                    <li class="prev disabled">
+                        <a>&larr; Previous</a>
+                    </li>
+                }
+                <li class="current">
+                    <a>Displaying @currentPage.getDisplayXtoYofZ</a>
+                </li>
+                @if(currentPage.hasNext) {
+                    <li class="next">
+                        <a href="@link(currentPage.getPageIndex + 1, null)">Next &rarr;</a>
+                    </li>
+                } else {
+                    <li class="next disabled">
+                        <a>Next &rarr;</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+}
+
+            
