@@ -1,0 +1,18 @@
+@(departCity: String, destination: String, departure_date: Date,term:
+ Int, category: Int, numberOfPersion: Int)
+ @main("Here is the result:") {
+
+     <ul class="header">
+             <li>Your depart city: @departCity</li>
+             <li>Your destination: @destination</li>
+             <li>Your depar date: @departure_date</li>
+             <li>Your term: @term</li>
+             <li>Your category: @category</li>
+             <li>How many people: @numberOfPersion</li>
+     </ul>
+
+     <p class="buttons">
+         <a href="@routes.Application.index">Back to the form</a>
+     </p>
+
+ }

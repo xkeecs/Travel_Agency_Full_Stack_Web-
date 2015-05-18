@@ -1,0 +1,65 @@
+ @(TripForm: Form[Application.Trip])
+ @import helper._
+ @main(title = "The NakisaTravel application") {
+
+     <h1>Configure your trip:</h1>
+
+     @form(action = routes.Application.results, args = 'id -> "helloform") {
+
+         <!-- @inputText(
+             field = TripForm("departCity"),
+             args = '_label -> "From where?", 'placeholder -> "Depart"
+         )-->
+          @select(
+             field = TripForm("departCity"),
+             options = options(
+                 "montreal" -> "Monteal",
+                 "ottawa" -> "Ottawa",
+                 "toronto" -> "Toronto"
+             ),
+             args = '_label -> "From where?"
+         )
+
+        @select(
+             field = TripForm("destination"),
+             options = options(
+                 "cuba" -> "Cuba",
+                 "costa Rica" -> "Costa Rica",
+                 "mexico" -> "Mexico"
+             ),
+             args = '_label -> "Choose your destination"
+         )
+         @inputText(
+             field = TripForm("departure_date"),
+             args = '_label -> "When?", 'size -> 10, 'placeholder -> "dd/mm/yyyy"
+         )
+         @inputText(
+             field = TripForm("term"),
+             args = '_label -> "How long?", 'size -> 10, 'placeholder
+ -> "week(s)"
+         )
+         @inputText(
+             field = TripForm("numberOfPersion"),
+             args = '_label -> "How many people?", 'size -> 10
+         )
+
+
+         @select(
+             field = TripForm("category"),
+             options = options(
+                 "1" -> "1",
+                 "2" -> "2",
+                 "3" -> "3",
+                 "4" -> "4",
+                 "5"-> "5"
+             ),
+             args = '_label -> "Choose a category"
+         )
+
+         <p>
+             <input type="submit" value="Select ">
+         </p>
+
+     }
+
+ }

@@ -1,0 +1,304 @@
+setting 'ivy.default.settings.dir' to 'jar:file:/C:/Users/shaofei/Desktop/play-2.1.4/framework/sbt/sbt-launch.jar!/org/apache/ivy/core/settings'
+setting 'ivy.basedir' to 'C:\Users\shaofei\foobar\.'
+setting 'ivy.default.conf.dir' to 'jar:file:/C:/Users/shaofei/Desktop/play-2.1.4/framework/sbt/sbt-launch.jar!/org/apache/ivy/core/settings'
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.SshResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VsftpResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.version.PatternVersionMatcher in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.trigger.LogTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.ant.AntBuildTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.IvyRepResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.signer.bouncycastle.OpenPGPSignatureGenerator in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.conflict.RegexpConflictManager in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.SFTPResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.osgi.updatesite.UpdateSiteResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.ant.AntCallTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.MirroredURLResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.packager.PackagerResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.DualResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VfsResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.JarResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.osgi.obr.OBRResolver in [] nor Ivy classloader
+impossible to define glob matcher: org.apache.ivy.plugins.matcher.GlobPatternMatcher was not found.
+setting 'sbt.ivy.home' to 'C:\Users\shaofei\Desktop\play-2.1.4\framework\..\repository'
+setting 'java.runtime.name' to 'Java(TM) SE Runtime Environment'
+setting 'sun.boot.library.path' to 'C:\Program Files\Java\jdk1.6.0_45\jre\bin'
+setting 'java.vm.version' to '20.45-b01'
+setting 'java.vm.vendor' to 'Sun Microsystems Inc.'
+setting 'java.vendor.url' to 'http://java.sun.com/'
+setting 'path.separator' to ';'
+setting 'java.vm.name' to 'Java HotSpot(TM) 64-Bit Server VM'
+setting 'file.encoding.pkg' to 'sun.io'
+setting 'sun.java.launcher' to 'SUN_STANDARD'
+setting 'user.country' to 'US'
+setting 'sun.os.patch.level' to 'Service Pack 1'
+setting 'java.vm.specification.name' to 'Java Virtual Machine Specification'
+setting 'user.dir' to 'C:\Users\shaofei\foobar'
+setting 'java.runtime.version' to '1.6.0_45-b06'
+setting 'sbt.boot.properties' to 'file:///C:/Users/shaofei/Desktop/play-2.1.4/framework/sbt/sbt.boot.properties'
+setting 'java.awt.graphicsenv' to 'sun.awt.Win32GraphicsEnvironment'
+setting 'java.endorsed.dirs' to 'C:\Program Files\Java\jdk1.6.0_45\jre\lib\endorsed'
+setting 'os.arch' to 'amd64'
+setting 'java.io.tmpdir' to 'C:\Users\shaofei\AppData\Local\Temp\'
+setting 'line.separator' to '
+'
+setting 'java.vm.specification.vendor' to 'Sun Microsystems Inc.'
+setting 'user.variant' to ''
+setting 'os.name' to 'Windows 7'
+setting 'sun.jnu.encoding' to 'Cp1252'
+setting 'java.library.path' to 'C:\Program Files\Java\jdk1.6.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.6.0_45\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Users\shaofei\Desktop\play-2.1.4;.'
+setting 'java.specification.name' to 'Java Platform API Specification'
+setting 'java.class.version' to '50.0'
+setting 'play.home' to 'C:\Users\shaofei\Desktop\play-2.1.4\framework\.'
+setting 'sun.management.compiler' to 'HotSpot 64-Bit Tiered Compilers'
+setting 'os.version' to '6.1'
+setting 'user.home' to 'C:\Users\shaofei'
+setting 'user.timezone' to 'America/Los_Angeles'
+setting 'java.awt.printerjob' to 'sun.awt.windows.WPrinterJob'
+setting 'file.encoding' to 'UTF-8'
+setting 'java.specification.version' to '1.6'
+setting 'java.class.path' to 'C:\Users\shaofei\Desktop\play-2.1.4\framework\sbt\sbt-launch.jar'
+setting 'user.name' to 'shaofei'
+setting 'play.version' to '2.1.4'
+setting 'java.vm.specification.version' to '1.0'
+setting 'sun.java.command' to 'C:\Users\shaofei\Desktop\play-2.1.4\framework\sbt\sbt-launch.jar eclipse'
+setting 'java.home' to 'C:\Program Files\Java\jdk1.6.0_45\jre'
+setting 'sun.arch.data.model' to '64'
+setting 'user.language' to 'en'
+setting 'java.specification.vendor' to 'Sun Microsystems Inc.'
+setting 'awt.toolkit' to 'sun.awt.windows.WToolkit'
+setting 'java.vm.info' to 'mixed mode'
+setting 'java.version' to '1.6.0_45'
+setting 'java.ext.dirs' to 'C:\Program Files\Java\jdk1.6.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext'
+setting 'sun.boot.class.path' to 'C:\Program Files\Java\jdk1.6.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_45\jre\classes'
+setting 'java.vendor' to 'Sun Microsystems Inc.'
+setting 'file.separator' to '\'
+setting 'java.vendor.url.bug' to 'http://java.sun.com/cgi-bin/bugreport.cgi'
+setting 'sun.io.unicode.encoding' to 'UnicodeLittle'
+setting 'sun.cpu.endian' to 'little'
+setting 'sun.desktop' to 'windows'
+setting 'sun.cpu.isalist' to 'amd64'
+setting 'ivy.default.ivy.user.dir' to 'C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository'
+setting 'ivy.home' to 'C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository'
+setting 'ivy.cache.dir' to 'C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache'
+no default cache defined: set to C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache
+setting 'ivy.checksums' to 'sha1,md5'
+setting 'ivy.basedir' to 'C:\Users\shaofei\Desktop\play-2.1.4\framework\.\sbt\boot'
+setting 'basedir' to 'C:\Users\shaofei\Desktop\play-2.1.4\framework\.\sbt\boot'
+setting 'scala' to '2.10.0'
+:: resolving dependencies :: org.scala-sbt#boot-scala;1.0
+	confs: [default]
+	validate = true
+	refresh = false
+resolving dependencies for configuration 'default'
+== resolving dependencies for org.scala-sbt#boot-scala;1.0 [default]
+loadData of org.scala-sbt#boot-scala;1.0 of rootConf=default
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.10.0 [default->default]
+loadData of org.scala-lang#scala-compiler;2.10.0 of rootConf=default
+	using redefined-public to resolve org.scala-lang#scala-compiler;2.10.0
+redefined-public: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {default=[default, optional(default)]}
+redefined-public: no namespace defined: using system
+	no ivy file in cache for org.scala-lang#scala-compiler;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\scala-compiler\ivy-2.10.0.xml
+redefined-public: no latest strategy defined: using default
+local: no namespace defined: using system
+	no ivy file in cache for org.scala-lang#scala-compiler;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\scala-compiler\ivy-2.10.0.xml
+	 trying C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-compiler\2.10.0\ivys\ivy.xml
+		tried C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-compiler\2.10.0\ivys\ivy.xml
+	local: found md file for org.scala-lang#scala-compiler;2.10.0
+		=> C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-compiler\2.10.0\ivys\ivy.xml (2.10.0)
+	parser = ivy parser
+	no ivy file in cache for org.scala-lang#scala-compiler;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\scala-compiler\ivy-2.10.0.xml
+	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!ivy.xml(ivy.original)
+post 1.3 ivy file: using exact as default matcher
+	default-cache: parsed downloaded md file for org.scala-lang#scala-compiler;2.10.0; parsed=org.scala-lang#scala-compiler;2.10.0
+	checking org.scala-lang#scala-compiler;2.10.0 from local against [none]
+	module revision kept as first found: org.scala-lang#scala-compiler;2.10.0 from local
+	found org.scala-lang#scala-compiler;2.10.0 in local
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.10.0 [default->runtime]
+loadData of org.scala-lang#scala-compiler;2.10.0 of rootConf=default
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.10.0 [default->compile]
+loadData of org.scala-lang#scala-compiler;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+	using redefined-public to resolve org.scala-lang#scala-library;2.10.0
+redefined-public: Checking cache for: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+	no ivy file in cache for org.scala-lang#scala-library;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\scala-library\ivy-2.10.0.xml
+	no ivy file in cache for org.scala-lang#scala-library;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\scala-library\ivy-2.10.0.xml
+	 trying C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-library\2.10.0\ivys\ivy.xml
+		tried C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-library\2.10.0\ivys\ivy.xml
+	local: found md file for org.scala-lang#scala-library;2.10.0
+		=> C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-library\2.10.0\ivys\ivy.xml (2.10.0)
+	parser = ivy parser
+	no ivy file in cache for org.scala-lang#scala-library;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\scala-library\ivy-2.10.0.xml
+	[NOT REQUIRED] org.scala-lang#scala-library;2.10.0!ivy.xml(ivy.original)
+post 1.3 ivy file: using exact as default matcher
+	default-cache: parsed downloaded md file for org.scala-lang#scala-library;2.10.0; parsed=org.scala-lang#scala-library;2.10.0
+	checking org.scala-lang#scala-library;2.10.0 from local against [none]
+	module revision kept as first found: org.scala-lang#scala-library;2.10.0 from local
+	found org.scala-lang#scala-library;2.10.0 in local
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->default]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->runtime]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)]
+loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=default
+	using redefined-public to resolve org.scala-lang#scala-reflect;2.10.0
+redefined-public: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+	no ivy file in cache for org.scala-lang#scala-reflect;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+	no ivy file in cache for org.scala-lang#scala-reflect;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+	 trying C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-reflect\2.10.0\ivys\ivy.xml
+		tried C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-reflect\2.10.0\ivys\ivy.xml
+	local: found md file for org.scala-lang#scala-reflect;2.10.0
+		=> C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-reflect\2.10.0\ivys\ivy.xml (2.10.0)
+	parser = ivy parser
+	no ivy file in cache for org.scala-lang#scala-reflect;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\scala-reflect\ivy-2.10.0.xml
+	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!ivy.xml(ivy.original)
+post 1.3 ivy file: using exact as default matcher
+	default-cache: parsed downloaded md file for org.scala-lang#scala-reflect;2.10.0; parsed=org.scala-lang#scala-reflect;2.10.0
+	checking org.scala-lang#scala-reflect;2.10.0 from local against [none]
+	module revision kept as first found: org.scala-lang#scala-reflect;2.10.0 from local
+	found org.scala-lang#scala-reflect;2.10.0 in local
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)]
+loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)]
+loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+loadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.10.0 [default->master]
+loadData of org.scala-lang#scala-compiler;2.10.0 of rootConf=default
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.10.0 [default->optional(default)]
+loadData of org.scala-lang#scala-compiler;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#jline;2.10.0 [optional->master(*)]
+loadData of org.scala-lang#jline;2.10.0 of rootConf=default
+	using redefined-public to resolve org.scala-lang#jline;2.10.0
+redefined-public: Checking cache for: dependency: org.scala-lang#jline;2.10.0 {optional=[compile(*), master(*)]}
+	no ivy file in cache for org.scala-lang#jline;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\jline\ivy-2.10.0.xml
+	no ivy file in cache for org.scala-lang#jline;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\jline\ivy-2.10.0.xml
+	 trying C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\jline\2.10.0\ivys\ivy.xml
+		tried C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\jline\2.10.0\ivys\ivy.xml
+	local: found md file for org.scala-lang#jline;2.10.0
+		=> C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\jline\2.10.0\ivys\ivy.xml (2.10.0)
+	parser = ivy parser
+	no ivy file in cache for org.scala-lang#jline;2.10.0: tried C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-lang\jline\ivy-2.10.0.xml
+	[NOT REQUIRED] org.scala-lang#jline;2.10.0!ivy.xml(ivy.original)
+post 1.3 ivy file: using exact as default matcher
+	default-cache: parsed downloaded md file for org.scala-lang#jline;2.10.0; parsed=org.scala-lang#jline;2.10.0
+	checking org.scala-lang#jline;2.10.0 from local against [none]
+	module revision kept as first found: org.scala-lang#jline;2.10.0 from local
+	found org.scala-lang#jline;2.10.0 in local
+== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#jline;2.10.0 [optional->compile(*)]
+loadData of org.scala-lang#jline;2.10.0 of rootConf=default
+== resolving dependencies org.scala-lang#jline;2.10.0->org.fusesource.jansi#jansi;1.4 [compile->master(*)]
+loadData of org.fusesource.jansi#jansi;1.4 of rootConf=default
+	using redefined-public to resolve org.fusesource.jansi#jansi;1.4
+redefined-public: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+No entry is found in the ModuleDescriptorCache : C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.fusesource.jansi\jansi\ivy-1.4.xml
+post 1.3 ivy file: using exact as default matcher
+	found ivy file in cache for org.fusesource.jansi#jansi;1.4 (resolved by local): C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.fusesource.jansi\jansi\ivy-1.4.xml
+redefined-public: module revision found in cache: org.fusesource.jansi#jansi;1.4
+	found org.fusesource.jansi#jansi;1.4 in local
+== resolving dependencies org.scala-lang#jline;2.10.0->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
+loadData of org.fusesource.jansi#jansi;1.4 of rootConf=default
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-library;2.10.0 [default->default]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-library;2.10.0 [default->runtime]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-library;2.10.0 [default->compile]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-library;2.10.0 [default->master]
+loadData of org.scala-lang#scala-library;2.10.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+Nbr of module to sort : 5
+Sort dependencies of : org.scala-lang#scala-compiler;2.10.0 / Number of dependencies = 3
+Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
+Sort done for : org.scala-lang#scala-library;2.10.0
+Sort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1
+Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+Sort done for : org.scala-lang#scala-reflect;2.10.0
+Sort dependencies of : org.scala-lang#jline;2.10.0 / Number of dependencies = 1
+Sort dependencies of : org.fusesource.jansi#jansi;1.4 / Number of dependencies = 1
+Sort done for : org.fusesource.jansi#jansi;1.4
+Sort done for : org.scala-lang#jline;2.10.0
+Sort done for : org.scala-lang#scala-compiler;2.10.0
+Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+Module descriptor is processed : org.scala-lang#scala-reflect;2.10.0
+Module descriptor is processed : org.scala-lang#jline;2.10.0
+Module descriptor is processed : org.fusesource.jansi#jansi;1.4
+	resolved ivy file produced in C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\resolved-org.scala-sbt-boot-scala-1.0.xml
+:: downloading artifacts ::
+	 trying C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-compiler\2.10.0\jars\scala-compiler.jar
+		tried C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-compiler\2.10.0\jars\scala-compiler.jar
+	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
+	 trying C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-library\2.10.0\jars\scala-library.jar
+		tried C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-library\2.10.0\jars\scala-library.jar
+	[NOT REQUIRED] org.scala-lang#scala-library;2.10.0!scala-library.jar
+	 trying C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-reflect\2.10.0\jars\scala-reflect.jar
+		tried C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-reflect\2.10.0\jars\scala-reflect.jar
+	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar
+	 trying C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\jline\2.10.0\jars\jline.jar
+		tried C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\jline\2.10.0\jars\jline.jar
+	[NOT REQUIRED] org.scala-lang#jline;2.10.0!jline.jar
+	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
+:: resolution report :: resolve 286ms :: artifacts dl 14ms
+Nbr of module to sort : 5
+Sort dependencies of : org.scala-lang#scala-compiler;2.10.0 / Number of dependencies = 3
+Sort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0
+Sort done for : org.scala-lang#scala-library;2.10.0
+Sort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1
+Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+Sort done for : org.scala-lang#scala-reflect;2.10.0
+Sort dependencies of : org.scala-lang#jline;2.10.0 / Number of dependencies = 1
+Sort dependencies of : org.fusesource.jansi#jansi;1.4 / Number of dependencies = 1
+Sort done for : org.fusesource.jansi#jansi;1.4
+Sort done for : org.scala-lang#jline;2.10.0
+Sort done for : org.scala-lang#scala-compiler;2.10.0
+Module descriptor is processed : org.scala-lang#scala-library;2.10.0
+Module descriptor is processed : org.scala-lang#scala-reflect;2.10.0
+Module descriptor is processed : org.scala-lang#jline;2.10.0
+Module descriptor is processed : org.fusesource.jansi#jansi;1.4
+	report for org.scala-sbt#boot-scala;1.0 default produced in C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\org.scala-sbt-boot-scala-default.xml
+	resolve done (286ms resolve - 14ms download)
+setting 'scala' to '2.10.0'
+:: retrieving :: org.scala-sbt#boot-scala
+	checkUpToDate=true
+no explicit confs given for retrieve, using ivy file: C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\resolved-org.scala-sbt-boot-scala-1.0.xml
+using ivy parser to parse C:\Users\shaofei\Desktop\play-2.1.4\framework\.\..\repository\cache\resolved-org.scala-sbt-boot-scala-1.0.xml
+post 1.3 ivy file: using exact as default matcher
+	confs: [default]
+	retrieving C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\jline\2.10.0\jars\jline.jar
+		to C:\Users\shaofei\Desktop\play-2.1.4\framework\sbt\boot\scala-2.10.0\lib\jline.jar
+	retrieving C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-reflect\2.10.0\jars\scala-reflect.jar
+		to C:\Users\shaofei\Desktop\play-2.1.4\framework\sbt\boot\scala-2.10.0\lib\scala-reflect.jar
+	retrieving C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.fusesource.jansi\jansi\1.4\jars\jansi.jar
+		to C:\Users\shaofei\Desktop\play-2.1.4\framework\sbt\boot\scala-2.10.0\lib\jansi.jar
+	retrieving C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-library\2.10.0\jars\scala-library.jar
+		to C:\Users\shaofei\Desktop\play-2.1.4\framework\sbt\boot\scala-2.10.0\lib\scala-library.jar
+	retrieving C:\Users\shaofei\Desktop\play-2.1.4\repository\local\org.scala-lang\scala-compiler\2.10.0\jars\scala-compiler.jar
+		to C:\Users\shaofei\Desktop\play-2.1.4\framework\sbt\boot\scala-2.10.0\lib\scala-compiler.jar
+	5 artifacts copied, 0 already retrieved (24106kB/51ms)
+	retrieve done (51ms)
